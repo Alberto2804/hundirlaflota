@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/peliculasFragment"
+        android:name="ui.PeliculasFragment"
+        android:label="fragment_peliculas"
+        tools:layout="@layout/fragment_peliculas" >
+        <action
+            android:id="@+id/action_peliculasFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="ui.DetalleFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_detalle" />
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.proyectoenero.InicioFragment"
+        android:label="Explorar"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/serieFragment2"
+        android:name="ui.SerieFragment"
+        android:label="fragment_serie"
+        tools:layout="@layout/fragment_serie" >
+        <action
+            android:id="@+id/action_serieFragment2_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pendientesFragment"
+        android:name="com.example.proyectoenero.PendientesFragment"
+        android:label="Pendientes"
+        tools:layout="@layout/fragment_pendientes" >
+        <action
+            android:id="@+id/action_pendientesFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seguimientoFragment"
+        android:name="com.example.proyectoenero.SeguimientoFragment"
+        android:label="Seguimiento"
+        tools:layout="@layout/fragment_seguimiento" >
+        <action
+            android:id="@+id/action_seguimientoFragment_to_detalleSeguimientoFragment"
+            app:destination="@id/detalleSeguimientoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anadirSeguimientoFragment"
+        android:name="com.example.proyectoenero.AnadirSeguimientoFragment"
+        android:label="Añadir Seguimiento"
+        tools:layout="@layout/fragment_anadir_seguimiento" />
+
+    <action
+        android:id="@+id/action_global_anadirSeguimiento"
+        app:destination="@id/anadirSeguimientoFragment" />
+    <fragment
+        android:id="@+id/detalleSeguimientoFragment"
+        android:name="com.example.proyectoenero.DetalleSeguimientoFragment"
+        android:label="Detalle Seguimiento"
+        tools:layout="@layout/fragment_detalle_seguimiento" />
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.example.proyectoenero.AjustesFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.proyectoenero.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.proyectoenero.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+</navigation>

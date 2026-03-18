@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ProyectoEnero</string>
+
+    <string name="menu_inicio">Explorar</string>
+    <string name="menu_peliculas">Películas</string>
+    <string name="menu_series">Series</string>
+    <string name="menu_pendientes">Pendientes</string>
+    <string name="menu_seguimiento">Seguimiento</string>
+    <string name="menu_ajustes">Ajustes</string>
+    <string name="menu_filtrar">Filtrar</string>
+
+    <string name="title_login">Inicia sesión</string>
+    <string name="subtitle_login">Bienvenido de nuevo</string>
+    <string name="title_register">Crear cuenta</string>
+    <string name="subtitle_register">Regístrate para comenzar</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Crear cuenta</string>
+    <string name="link_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="text_or_login_with">o inicia sesión con</string>
+    <string name="text_or_register_with">o regístrate con</string>
+    <string name="question_no_account">¿No tienes cuenta?</string>
+    <string name="question_yes_account">¿Ya tienes cuenta?</string>
+    <string name="action_register">Regístrate</string>
+    <string name="action_login">Inicia sesión</string>
+
+    <string name="btn_change_photo">Cambiar foto</string>
+    <string name="btn_save_changes">Guardar cambios</string>
+    <string name="btn_reset">Resetear</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="label_username">Nombre de usuario</string>
+    <string name="label_language">Idioma preferido</string>
+    <string name="label_wifi_only">Solo imágenes con Wi-Fi</string>
+    <string name="label_theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+
+    <string name="title_add_tracking">Añadir Seguimiento</string>
+    <string name="label_content_type">Tipo de contenido</string>
+    <string name="radio_movie">Película</string>
+    <string name="radio_series">Serie</string>
+    <string name="label_search_title">Buscar Título</string>
+    <string name="hint_search">Escribe para buscar...</string>
+    <string name="label_watch_date">Fecha de visualización</string>
+    <string name="hint_date">Selecciona fecha</string>
+    <string name="label_rating">Puntuación</string>
+    <string name="btn_select_image">Seleccionar Imagen</string>
+    <string name="btn_save_tracking">GUARDAR SEGUIMIENTO</string>
+    <string name="label_comments_synopsis">COMENTARIOS / SINOPSIS</string>
+
+    <string name="btn_watch_trailer">VER TRÁILER</string>
+    <string name="title_comments">Comentarios</string>
+    <string name="hint_write_comment">Escribe tu comentario...</string>
+    <string name="error_loading">Error al cargar</string>
+
+    <string name="dialog_info">Información</string>
+    <string name="dialog_error">Error</string>
+    <string name="dialog_warning">Aviso</string>
+    <string name="dialog_success">Éxito</string>
+
+    <string name="msg_prefs_reset">Preferencias reseteadas</string>
+    <string name="msg_error_updating">Error actualizando</string>
+    <string name="msg_changes_saved">Cambios guardados</string>
+    <string name="msg_searching">Iniciando búsqueda...</string>
+    <string name="msg_select_content_first">Primero busca y selecciona un contenido</string>
+    <string name="msg_uploading_image">Subiendo imagen...</string>
+    <string name="msg_saved_successfully">Guardado correctamente</string>
+    <string name="msg_login_to_comment">Debes iniciar sesión para comentar</string>
+    <string name="msg_trailer_unavailable">Tráiler no disponible</string>
+    <string name="msg_filter_min_max_error">El mínimo no puede ser mayor que el máximo</string>
+    <string name="msg_filter_date_error">La fecha \'Desde\' no puede ser posterior a \'Hasta\'</string>
+    <string name="msg_added_to_pending">Añadido a pendientes</string>
+    <string name="msg_already_in_list">¡Ya está en tu lista!</string>
+
+    <string name="msg_no_pending">No tienes nada pendiente</string>
+    <string name="msg_add_from_explore">Añade películas o series desde Explorar</string>
+    <string name="btn_go_explore">IR A EXPLORAR</string>
+    <string name="btn_sort">Ordenar</string>
+</resources>

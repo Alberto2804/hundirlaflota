@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ProyectoEnero</string>
+
+    <string name="menu_inicio">Explore</string>
+    <string name="menu_peliculas">Movies</string>
+    <string name="menu_series">TV Shows</string>
+    <string name="menu_pendientes">Watchlist</string>
+    <string name="menu_seguimiento">Tracking</string>
+    <string name="menu_ajustes">Settings</string>
+    <string name="menu_filtrar">Filter</string>
+
+    <string name="title_login">Sign in</string>
+    <string name="subtitle_login">Welcome back</string>
+    <string name="title_register">Create account</string>
+    <string name="subtitle_register">Sign up to get started</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="btn_login">Sign in</string>
+    <string name="btn_register">Sign up</string>
+    <string name="link_forgot_password">Forgot your password?</string>
+    <string name="text_or_login_with">or sign in with</string>
+    <string name="text_or_register_with">or sign up with</string>
+    <string name="question_no_account">Don\'t have an account?</string>
+    <string name="question_yes_account">Already have an account?</string>
+    <string name="action_register">Sign up</string>
+    <string name="action_login">Sign in</string>
+
+    <string name="btn_change_photo">Change photo</string>
+    <string name="btn_save_changes">Save changes</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_logout">Log out</string>
+    <string name="label_username">Username</string>
+    <string name="label_language">Preferred language</string>
+    <string name="label_wifi_only">Images over Wi-Fi only</string>
+    <string name="label_theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="title_add_tracking">Add Tracking</string>
+    <string name="label_content_type">Content type</string>
+    <string name="radio_movie">Movie</string>
+    <string name="radio_series">TV Show</string>
+    <string name="label_search_title">Search Title</string>
+    <string name="hint_search">Type to search...</string>
+    <string name="label_watch_date">Watch date</string>
+    <string name="hint_date">Select date</string>
+    <string name="label_rating">Rating</string>
+    <string name="btn_select_image">Select Image</string>
+    <string name="btn_save_tracking">SAVE TRACKING</string>
+    <string name="label_comments_synopsis">COMMENTS / SYNOPSIS</string>
+
+    <string name="btn_watch_trailer">WATCH TRAILER</string>
+    <string name="title_comments">Comments</string>
+    <string name="hint_write_comment">Write your comment...</string>
+    <string name="error_loading">Error loading</string>
+
+    <string name="dialog_info">Information</string>
+    <string name="dialog_error">Error</string>
+    <string name="dialog_warning">Warning</string>
+    <string name="dialog_success">Success</string>
+
+    <string name="msg_prefs_reset">Preferences reset</string>
+    <string name="msg_error_updating">Error updating</string>
+    <string name="msg_changes_saved">Changes saved</string>
+    <string name="msg_searching">Starting search...</string>
+    <string name="msg_select_content_first">Please search and select content first</string>
+    <string name="msg_uploading_image">Uploading image...</string>
+    <string name="msg_saved_successfully">Saved successfully</string>
+    <string name="msg_login_to_comment">You must sign in to comment</string>
+    <string name="msg_trailer_unavailable">Trailer not available</string>
+    <string name="msg_filter_min_max_error">Minimum cannot be greater than maximum</string>
+    <string name="msg_filter_date_error">\'From\' date cannot be later than \'To\' date</string>
+    <string name="msg_added_to_pending">Added to watchlist</string>
+    <string name="msg_already_in_list">Already in your list!</string>
+
+    <string name="msg_no_pending">Nothing pending yet</string>
+    <string name="msg_add_from_explore">Add movies or shows from Explore</string>
+    <string name="btn_go_explore">GO TO EXPLORE</string>
+    <string name="btn_sort">Sort</string>
+</resources>
